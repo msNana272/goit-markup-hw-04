@@ -21,6 +21,8 @@
         flex-direction: column;
         gap: 8px;}
 
+.features-svg {width: 64px; height: 64px; }
+
 .features-headline {
    
         font-weight: 500;

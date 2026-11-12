@@ -49,10 +49,10 @@ background: #f4f4fd;
     width: 40px;
     height: 40px; background: #4d5ae5; display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center; transition: background-color 250ms ease-in-out ;}
     .messenger-link:hover, .messenger-link:focus{background: #404bbf;}
 
-    .messenger-link-svg{color: #fff;}
+    .messenger-link-svg{color: #f4f4fd;}
 
 
 

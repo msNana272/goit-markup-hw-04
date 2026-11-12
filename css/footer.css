@@ -1,5 +1,5 @@
 .footer {background: #2e2f42; 
-    align-items: center;
+  
     justify-content: flex-start;
     flex-direction: column;
     gap: 0;
@@ -8,13 +8,20 @@
 
 
 }
- 
+ .footer-section1 {padding: 0 15px;
+    width: 1158px;
+    height: 112px;
+    max-width: 1158px;display: flex;
+
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 10px; }
            .sec-foot {
                display: flex;
                align-items: flex-start;
                justify-content: flex-start;
                flex-direction: row;
-               gap: 120px; max-width: 1158px; padding: 0 15px;
+                max-width: 1158px; padding: 0 15px;
                 height: 112px;
               
            }
@@ -24,7 +31,7 @@
     .footer-container {
                 align-items: flex-start;
                 justify-content: flex-start;
-             
+             margin-right: 120px; margin-left: 15px; 
                 gap: 16px; max-width: 264px;
        
     }
@@ -41,14 +48,13 @@
             background: #4d5ae5;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: center; transition: background-color 250ms ease-in-out ; 
         }
     
-        .messenger-link-footer:hover,
-        .messenger-link:focus {
+        .messenger-link-footer:hover, .messenger-link-footer:focus {
            background: #31d0aa;
         }
-         .messenger-footer-svg {}
+         .messenger-footer-svg {color: #f4f4fd}
 
 .footer-logo { font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -91,3 +97,7 @@ display: inline-block;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;}
+        .messenger-box-footer{gap: 16px; display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;}
