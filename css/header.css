@@ -46,13 +46,14 @@ justify-content: flex-start;
     gap: 0;
      padding: 24px 0;}
 
-       .line{}
-           .line::after { content: "";
+       .line{color: #2e2f42; position: relative; }
+           .line::after { content: ""; position: absolute;
                display: block;
                width: 100%;
                height: 4px;
                background-color: #404bbf;
-               border-radius: 2px;
+               border-radius: 2px; 
+               left: 0; bottom: -1px; 
            }
 
 .a1{ align-items: center;
@@ -68,7 +69,7 @@ flex-direction: column;}
             justify-content: flex-start;
             flex-direction: column;
            }
-.nav-anchor-link{padding: 24px 0; gap: 0; display: block; }
+.nav-anchor-link{padding: 24px 0; gap: 0; display: block; transition: color 250ms ease-in-out; }
 
 .nav-anchor-link:hover, .nav-anchor-link:focus {
     color: #404bbf;}

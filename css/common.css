@@ -67,7 +67,7 @@ address {font-style: normal; margin:0;}
 .contact-address-item {padding: 0px;}
 
 .contacts-link{font-weight: 400; color: #434455; display: flex; padding: 24px 0; 
-   
+transition: color 250ms ease-in-out;
     }
 .contacts-link:hover, .contacts-link:focus {color: #404bbf;}
 
